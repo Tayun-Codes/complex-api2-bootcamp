@@ -1,22 +1,19 @@
 # 📊 Project: Complex API 2
+Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+https://github.com/user-attachments/assets/8c17b82a-afb4-468c-aa98-29c55185fb17
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
+Accessed the Metropolitan Museum of Art to grab random artifacts. Retrieved the dates related to the artifact and fed them into the Historical Events API to retrieve an event that happened during that time period.
+
+**Instructions for if you would like to download the code and input your own keys:**
+Get a key for this API: https://api-ninjas.com/api/historicalevents
+- Create a keys.js document in the js folder
 ```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+export const key = 'your ninja api key here'
 ```
+
+## What I Learned
+- How to read API documentation and access the data that I need from objects
+- How to directly feed data from one API into another API for linked fetches
